@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "0.2",
+  "name": "BlurYourInfo",
+  "description": "Blur Your Personal Info Online",
+  "author": "livxy",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*", "*://*.amazon.co.uk/*"],
+      "js": ["blur.js"]
+    }
+  ],
+  "action": {},
+  "content_security_policy": {},
+  "host_permissions": ["*://*.amazon.com/*", "*://*.amazon.co.uk/*"]
+}
