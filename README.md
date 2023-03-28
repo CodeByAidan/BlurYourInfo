@@ -1,8 +1,6 @@
 # BlurYourInfo Google Extension
 Blurs address, name, and personal details on Amazon.
 
-**WORK IN PROGRESS**
-
 ## To use:
 
 1. Simply, create a folder, and then drop my 2 files inside of it. 
