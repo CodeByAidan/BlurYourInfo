@@ -1,5 +1,3 @@
-const start = Date.now();
-
 if (window.location.href.includes("amazon")) {
   var amazonClassesToBlur = [
     "nav-line-1-container",
@@ -18,9 +16,5 @@ if (window.location.href.includes("amazon")) {
         d.style.webkitFilter = "blur(3px)";
       });
     });
-    const end = Date.now();
-    // print  date.now() in miliseconds
-    const millis = end - start;
-    console.log(`Execution time: ${Math.floor(millis / 1)} milliseconds`);
   });
 }
